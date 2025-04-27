@@ -50,7 +50,6 @@ CREATE TABLE DatosHora (
     Hora22 DECIMAL(18,5),
     Hora23 DECIMAL(18,5),
     Hora24 DECIMAL(18,5),    
-    Hora24 DECIMAL(18,5),
     FOREIGN KEY (MetricaID) REFERENCES Metrica(MetricaID),
     FOREIGN KEY (EntidadID) REFERENCES Entidad(EntidadID),
     INDEX idx_fecha (Fecha),
